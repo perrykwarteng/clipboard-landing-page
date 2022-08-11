@@ -14,6 +14,23 @@ body {
   font-size: 1.8rem;
 }
 
+h2,
+h3 {
+  color: hsl(210deg, 10%, 33%);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  color: hsl(201deg, 11%, 66%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -64,20 +81,47 @@ body {
     margin-top: 4rem;
   }
   .hero .hero-content h2 {
-    font-size: 3rem;
-    color: hsl(210deg, 10%, 33%);
+    font-size: 3.5rem;
   }
   .hero .hero-content p {
     margin-top: 3rem;
-    color: hsl(201deg, 11%, 66%);
   }
   .hero .hero-btn {
     margin-top: 0;
   }
   .hero .hero-btn .btn-basic {
-    width: 28%;
+    width: 25%;
     display: inline;
     margin: 0.5rem;
+  }
+  .message h2 {
+    font-size: 3.5rem;
+  }
+  .items {
+    display: flex;
+  }
+  .items .item-img img {
+    position: relative;
+    left: -10%;
+  }
+  .items .item-des {
+    margin-top: 0rem;
+  }
+  .features .message {
+    margin-top: 0rem;
+  }
+  .features .feature {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .features .feature .feature-one,
+.features .feature .feature-two,
+.features .feature .feature-three {
+    width: 30rem;
+    height: 15rem;
+    margin: 2rem;
   }
 }
 .hero {
@@ -91,14 +135,59 @@ body {
 .hero .hero-content {
   margin-top: 1rem;
 }
-.hero .hero-content h2 {
-  font-size: 3rem;
-  color: hsl(210deg, 10%, 33%);
-}
 .hero .hero-content p {
   margin-top: 3rem;
-  color: hsl(201deg, 11%, 66%);
 }
 .hero .hero-btn {
   margin-top: 2rem;
+}
+
+.message {
+  margin-top: 6rem;
+  padding: 2rem;
+}
+.message h2 {
+  margin-top: 3rem;
+}
+.message p {
+  margin-top: 2rem;
+}
+.message img {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.items {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+.items .item-img img {
+  width: 100%;
+}
+.items .item-des {
+  padding: 2rem;
+}
+.items .item-des .des-one,
+.items .item-des .des-two,
+.items .item-des .des-three {
+  margin-top: 1.5rem;
+}
+.items .item-des .des-one h3,
+.items .item-des .des-two h3,
+.items .item-des .des-three h3 {
+  color: hsl(210deg, 10%, 33%);
+}
+.items .item-des .des-one p,
+.items .item-des .des-two p,
+.items .item-des .des-three p {
+  color: hsl(201deg, 11%, 66%);
+}
+
+.features {
+  padding: 2rem;
+}
+.features .feature-one img,
+.features .feature-two img,
+.features .feature-three img {
+  width: 5rem;
 }/*# sourceMappingURL=style.css.map */

@@ -12,6 +12,19 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   font-size: $text-size;
 }
+h2,
+h3 {
+  color: $text-bold;
+}
+h2 {
+  font-size: $text-big-size;
+}
+h3 {
+  font-size: 2.5rem;
+}
+p {
+  color: $text-light;
+}
 .attribution {
   font-size: 11px;
   text-align: center;

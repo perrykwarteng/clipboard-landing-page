@@ -20,17 +20,65 @@ $text-big-size: 3rem;
   .hero-content {
     margin-top: 1rem;
 
-    h2 {
-      font-size: $text-big-size;
-      color: $text-bold;
-    }
-
     p {
       margin-top: 3rem;
-      color: $text-light;
     }
   }
   .hero-btn {
     margin-top: 2rem;
+  }
+}
+
+.message {
+  margin-top: 6rem;
+  //   padding: 0rem 25rem;
+  padding: 2rem;
+
+  h2 {
+    margin-top: 3rem;
+  }
+  p {
+    margin-top: 2rem;
+  }
+  img {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+.items {
+  margin-top: 3rem;
+  padding: 2rem;
+
+  .item-img img {
+    width: 100%;
+  }
+
+  .item-des {
+    padding: 2rem;
+
+    .des-one,
+    .des-two,
+    .des-three {
+      margin-top: 1.5rem;
+
+      h3 {
+        color: $text-bold;
+      }
+      p {
+        color: $text-light;
+      }
+    }
+  }
+}
+.features {
+  padding: 2rem;
+
+  .feature-one,
+  .feature-two,
+  .feature-three {
+    img {
+      width: 5rem;
+    }
   }
 }

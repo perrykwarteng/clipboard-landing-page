@@ -12,13 +12,11 @@
       margin-top: 4rem;
 
       h2 {
-        font-size: $text-big-size;
-        color: $text-bold;
+        font-size: 3.5rem;
       }
 
       p {
         margin-top: 3rem;
-        color: $text-light;
       }
     }
 
@@ -26,9 +24,48 @@
       margin-top: 0;
 
       .btn-basic {
-        width: 28%;
+        width: 25%;
         display: inline;
         margin: 0.5rem;
+      }
+    }
+  }
+
+  .message {
+    h2 {
+      font-size: 3.5rem;
+    }
+  }
+
+  .items {
+    display: flex;
+
+    .item-img img {
+      position: relative;
+      left: -10%;
+    }
+
+    .item-des {
+      margin-top: 0rem;
+    }
+  }
+
+  .features {
+    .message {
+      margin-top: 0rem;
+    }
+    .feature {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+
+      .feature-one,
+      .feature-two,
+      .feature-three {
+        width: 30rem;
+        height: 15rem;
+        margin: 2rem;
       }
     }
   }
