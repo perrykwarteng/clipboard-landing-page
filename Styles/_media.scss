@@ -76,8 +76,36 @@
 
   .brands {
     .brand-items {
+      padding: 2rem;
       display: flex;
       justify-content: space-around;
+    }
+  }
+
+  .call-action {
+    margin-top: 3rem;
+    .call-btn {
+      margin-top: 0;
+
+      .btn-basic {
+        width: 25%;
+        display: inline;
+        margin: 0.5rem;
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .footer-links {
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
     }
   }
 }

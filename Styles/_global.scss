@@ -25,6 +25,18 @@ h3 {
 p {
   color: $text-light;
 }
+ul {
+  li {
+    list-style: none;
+  }
+}
+a {
+  color: $text-bold;
+  text-decoration: none;
+  &:hover {
+    color: $primary-color;
+  }
+}
 .attribution {
   font-size: 11px;
   text-align: center;

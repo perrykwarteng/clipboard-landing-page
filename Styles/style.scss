@@ -103,3 +103,35 @@ $text-big-size: 3rem;
     margin-top: 5rem;
   }
 }
+.call-action {
+  padding: 2rem;
+  margin-top: 5rem;
+
+  .call-content {
+    margin-top: 6rem;
+
+    p {
+      margin: 3rem 0rem;
+    }
+  }
+}
+
+.footer {
+  background: $text-light;
+  padding: 2rem;
+
+  .footer-logo {
+    img {
+      margin: 4rem 0rem 2rem 0rem;
+      width: 8rem;
+    }
+  }
+  .footer-links {
+    margin: 2rem 0rem;
+    ul {
+      li {
+        margin-top: 1rem;
+      }
+    }
+  }
+}

@@ -31,6 +31,18 @@ p {
   color: hsl(201deg, 11%, 66%);
 }
 
+ul li {
+  list-style: none;
+}
+
+a {
+  color: hsl(210deg, 10%, 33%);
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(171deg, 66%, 44%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -129,8 +141,30 @@ p {
     margin: 2rem 0rem;
   }
   .brands .brand-items {
+    padding: 2rem;
     display: flex;
     justify-content: space-around;
+  }
+  .call-action {
+    margin-top: 3rem;
+  }
+  .call-action .call-btn {
+    margin-top: 0;
+  }
+  .call-action .call-btn .btn-basic {
+    width: 25%;
+    display: inline;
+    margin: 0.5rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer .footer-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 }
 .hero {
@@ -225,4 +259,30 @@ p {
 .brands .brand-four,
 .brands .brand-five {
   margin-top: 5rem;
+}
+
+.call-action {
+  padding: 2rem;
+  margin-top: 5rem;
+}
+.call-action .call-content {
+  margin-top: 6rem;
+}
+.call-action .call-content p {
+  margin: 3rem 0rem;
+}
+
+.footer {
+  background: hsl(201deg, 11%, 66%);
+  padding: 2rem;
+}
+.footer .footer-logo img {
+  margin: 4rem 0rem 2rem 0rem;
+  width: 8rem;
+}
+.footer .footer-links {
+  margin: 2rem 0rem;
+}
+.footer .footer-links ul li {
+  margin-top: 1rem;
 }/*# sourceMappingURL=style.css.map */
