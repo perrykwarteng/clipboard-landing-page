@@ -1,0 +1,15 @@
+$primary-color: hsl(171, 66%, 44%);
+$secondary-color: hsl(233, 100%, 69%);
+$text-bold: hsl(210, 10%, 33%);
+$text-light: hsl(201, 11%, 66%);
+$text-size: 1.8rem;
+$text-big-size: 2.5rem;
+
+@import "global";
+
+.hero {
+  background: url("/images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
