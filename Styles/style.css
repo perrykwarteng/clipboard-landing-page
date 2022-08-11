@@ -120,8 +120,17 @@ p {
 .features .feature .feature-two,
 .features .feature .feature-three {
     width: 30rem;
-    height: 15rem;
-    margin: 2rem;
+    height: 20rem;
+    margin: 3rem;
+  }
+  .features .feature .feature-one h3,
+.features .feature .feature-two h3,
+.features .feature .feature-three h3 {
+    margin: 2rem 0rem;
+  }
+  .brands .brand-items {
+    display: flex;
+    justify-content: space-around;
   }
 }
 .hero {
@@ -186,8 +195,34 @@ p {
 .features {
   padding: 2rem;
 }
+.features .message {
+  margin-bottom: 5rem;
+}
+.features .feature-one,
+.features .feature-two,
+.features .feature-three {
+  width: 100%;
+  height: 100%;
+  margin-top: 7rem;
+}
 .features .feature-one img,
 .features .feature-two img,
 .features .feature-three img {
   width: 5rem;
+}
+.features .feature-one h3,
+.features .feature-two h3,
+.features .feature-three h3 {
+  margin: 2rem 0rem;
+}
+
+.brands {
+  padding: 2rem;
+}
+.brands .brand-one,
+.brands .brand-two,
+.brands .brand-three,
+.brands .brand-four,
+.brands .brand-five {
+  margin-top: 5rem;
 }/*# sourceMappingURL=style.css.map */
