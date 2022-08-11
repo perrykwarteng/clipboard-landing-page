@@ -3,7 +3,7 @@ $secondary-color: hsl(233, 100%, 69%);
 $text-bold: hsl(210, 10%, 33%);
 $text-light: hsl(201, 11%, 66%);
 $text-size: 1.8rem;
-$text-big-size: 2.5rem;
+$text-big-size: 3rem;
 
 @import "global";
 @import "btn";
@@ -13,4 +13,25 @@ $text-big-size: 2.5rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 1.5rem;
+
+  .hero-logo img {
+    margin-top: 6rem;
+  }
+  .hero-content {
+    margin-top: 4rem;
+
+    h2 {
+      font-size: $text-big-size;
+      color: $text-bold;
+    }
+
+    p {
+      margin-top: 3rem;
+      color: $text-light;
+    }
+  }
+  .hero-btn {
+    margin-top: 4rem;
+  }
 }

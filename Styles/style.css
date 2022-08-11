@@ -24,14 +24,17 @@ body {
 }
 
 .btn-basic {
+  width: 100%;
   background: none;
   outline: none;
-  padding: 0.8rem 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
   font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
   border: none;
-  border-radius: 2rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 7px 1px rgb(181, 180, 180);
 }
 
 .btn-prim {
@@ -45,7 +48,7 @@ body {
   background: hsl(233deg, 100%, 69%);
 }
 .btn-sec:hover {
-  background: hsl(233deg, 93%, 73%);
+  background: hsl(233deg, 94%, 75%);
 }
 
 .hero {
@@ -53,4 +56,22 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 1.5rem;
+}
+.hero .hero-logo img {
+  margin-top: 6rem;
+}
+.hero .hero-content {
+  margin-top: 4rem;
+}
+.hero .hero-content h2 {
+  font-size: 3rem;
+  color: hsl(210deg, 10%, 33%);
+}
+.hero .hero-content p {
+  margin-top: 3rem;
+  color: hsl(201deg, 11%, 66%);
+}
+.hero .hero-btn {
+  margin-top: 4rem;
 }/*# sourceMappingURL=style.css.map */

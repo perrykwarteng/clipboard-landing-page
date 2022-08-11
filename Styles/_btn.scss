@@ -1,12 +1,15 @@
 .btn-basic {
+  width: 100%;
   background: none;
   outline: none;
-  padding: 0.8rem 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
   font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
   border: none;
-  border-radius: 2rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 7px 1px rgb(181, 180, 180);
 }
 .btn-prim {
   background: $primary-color;
@@ -19,6 +22,6 @@
   background: $secondary-color;
 
   &:hover {
-    background: hsl(233, 93%, 73%);
+    background: hsl(233, 94%, 75%);
   }
 }
