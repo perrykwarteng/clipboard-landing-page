@@ -1,0 +1,35 @@
+@media screen and (min-width: 700px) {
+  .hero {
+    background: url("/images/bg-header-desktop.png");
+
+    .hero-logo img,
+    .hero-content,
+    .hero-btn {
+      margin: 5rem auto;
+    }
+
+    .hero-content {
+      margin-top: 4rem;
+
+      h2 {
+        font-size: $text-big-size;
+        color: $text-bold;
+      }
+
+      p {
+        margin-top: 3rem;
+        color: $text-light;
+      }
+    }
+
+    .hero-btn {
+      margin-top: 0;
+
+      .btn-basic {
+        width: 28%;
+        display: inline;
+        margin: 0.5rem;
+      }
+    }
+  }
+}

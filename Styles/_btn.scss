@@ -3,13 +3,13 @@
   background: none;
   outline: none;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
   border: none;
   border-radius: 3rem;
-  box-shadow: 0 0 7px 1px rgb(181, 180, 180);
+  box-shadow: 0 0 7px 1px rgba(181, 180, 180, 0.5);
 }
 .btn-prim {
   background: $primary-color;

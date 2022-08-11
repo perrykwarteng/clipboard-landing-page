@@ -7,19 +7,18 @@ $text-big-size: 3rem;
 
 @import "global";
 @import "btn";
+@import "media";
 
 .hero {
+  height: 100%;
   background: url("/images/bg-header-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 1.5rem;
 
-  .hero-logo img {
-    margin-top: 6rem;
-  }
   .hero-content {
-    margin-top: 4rem;
+    margin-top: 1rem;
 
     h2 {
       font-size: $text-big-size;
@@ -32,6 +31,6 @@ $text-big-size: 3rem;
     }
   }
   .hero-btn {
-    margin-top: 4rem;
+    margin-top: 2rem;
   }
 }

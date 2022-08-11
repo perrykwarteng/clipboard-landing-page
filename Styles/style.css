@@ -28,13 +28,13 @@ body {
   background: none;
   outline: none;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 1.5rem;
   font-weight: 400;
   color: #fff;
   border: none;
   border-radius: 3rem;
-  box-shadow: 0 0 7px 1px rgb(181, 180, 180);
+  box-shadow: 0 0 7px 1px rgba(181, 180, 180, 0.5);
 }
 
 .btn-prim {
@@ -51,18 +51,45 @@ body {
   background: hsl(233deg, 94%, 75%);
 }
 
+@media screen and (min-width: 700px) {
+  .hero {
+    background: url("/images/bg-header-desktop.png");
+  }
+  .hero .hero-logo img,
+.hero .hero-content,
+.hero .hero-btn {
+    margin: 5rem auto;
+  }
+  .hero .hero-content {
+    margin-top: 4rem;
+  }
+  .hero .hero-content h2 {
+    font-size: 3rem;
+    color: hsl(210deg, 10%, 33%);
+  }
+  .hero .hero-content p {
+    margin-top: 3rem;
+    color: hsl(201deg, 11%, 66%);
+  }
+  .hero .hero-btn {
+    margin-top: 0;
+  }
+  .hero .hero-btn .btn-basic {
+    width: 28%;
+    display: inline;
+    margin: 0.5rem;
+  }
+}
 .hero {
+  height: 100%;
   background: url("/images/bg-header-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 1.5rem;
 }
-.hero .hero-logo img {
-  margin-top: 6rem;
-}
 .hero .hero-content {
-  margin-top: 4rem;
+  margin-top: 1rem;
 }
 .hero .hero-content h2 {
   font-size: 3rem;
@@ -73,5 +100,5 @@ body {
   color: hsl(201deg, 11%, 66%);
 }
 .hero .hero-btn {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }/*# sourceMappingURL=style.css.map */
