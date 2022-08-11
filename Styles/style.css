@@ -23,6 +23,31 @@ body {
   color: hsl(228deg, 45%, 44%);
 }
 
+.btn-basic {
+  background: none;
+  outline: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+}
+
+.btn-prim {
+  background: hsl(171deg, 66%, 44%);
+}
+.btn-prim:hover {
+  background: rgb(50, 223, 197);
+}
+
+.btn-sec {
+  background: hsl(233deg, 100%, 69%);
+}
+.btn-sec:hover {
+  background: hsl(233deg, 93%, 73%);
+}
+
 .hero {
   background: url("/images/bg-header-mobile.png");
   background-repeat: no-repeat;

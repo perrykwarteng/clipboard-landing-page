@@ -1,0 +1,24 @@
+.btn-basic {
+  background: none;
+  outline: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+}
+.btn-prim {
+  background: $primary-color;
+
+  &:hover {
+    background: rgb(50, 223, 197);
+  }
+}
+.btn-sec {
+  background: $secondary-color;
+
+  &:hover {
+    background: hsl(233, 93%, 73%);
+  }
+}
